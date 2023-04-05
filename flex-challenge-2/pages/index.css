@@ -1,0 +1,110 @@
+/* Header */
+.header {
+  background-color: #F3EED9;
+}
+
+.header__wrapper {
+  max-width: 1128px;
+  width: 40%;
+  min-height: 660px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__subtitle {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  color: #824936;
+}
+
+/* Quality Designs */
+.quality-designs {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.quality-design__wrapper {
+  max-width: 1128px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.quality-design__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #824936;
+  text-align: center;
+}
+
+.quality-design__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality-design__paragraph {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  max-width: 45%;
+}
+
+/* Made Custom */
+.made-custom {
+  background-color: #222C2A;
+  padding: 100px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1128px;
+  width: 80%;
+}
+
+.flex-container {
+  display: flex;
+  column-gap: 50px;
+}
+
+.content__text {
+  max-width: 50%;
+}
+
+.content-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #F3EED9;
+}
+
+.content-paragraph {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.image-wrapper {
+  max-width: 50%;
+  align-self: center;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* With care */
+.with-care {
+  background-color: #824936;
+  padding: 100px 0;
+}
